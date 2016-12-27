@@ -1,3 +1,10 @@
+#This is a dataset of a giant insurance company that sells various insurance products to its customers. 
+#Through the marketing efforts of the company, a database of leads is generated. A lead refers to a prospective customer. 
+#The call center team of the company then calls the lead at various times in a day to sell products.
+#However, the company incurs very high costs to call all the leads and still has very low
+#conversion rate (leads that actually buy the product). To minimize the costs, 
+#the company wants to develop a model to predict the probability to convert. 
+
 library(data.table)#faster data manipulation
 library(dplyr)##data manipulation
 library(ggplot2)# data visualisation
