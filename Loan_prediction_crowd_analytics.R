@@ -306,3 +306,8 @@ summary(glm_model)
 prediction<-predict(glm_model,testing_data,type="response")
 pred<-ifelse(prediction>0.5,1,0)
 write.csv(data.frame(pred),"pred.csv",row.names = F)
+
+
+###Rank 23 solution
+
+
